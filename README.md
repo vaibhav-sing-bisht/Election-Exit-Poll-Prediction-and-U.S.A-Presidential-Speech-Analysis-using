@@ -41,10 +41,15 @@ From the above Comparisons metrics and models comparison tables we inferred the 
 ![image](https://user-images.githubusercontent.com/87828805/153253346-db33aad0-b95a-45bb-a8a2-044d950ad145.png)
 
 •	Bagging and XGBoost models tend towards defining high variance in train but fails to perform in test, creating over fit models.
+
 •	Gradient boosting models like XGBoost would performs extremely well in the large datasets than the smaller ones.
+
 •	Bootstraps requires high mathematics calculations and may pose low performances challenges.
+
 •	Parametric models like Logistic Regression and Naive Bayes showed better consistency in class predictions and in mathematical calculations also.
+
 •	LDA showed least consistency in 10 fold cross validation and KNN gave the least recall of minority class in train and test dataset.
+
 •	On cross validation Recall across both the target classes and consistent accuracy on both train and test dataset, Logistic Regression, SVM and MNB can be chosen for final model.
 
 As we know from the above , Naïve Bayes test accuracy is 83% and LR, LDA, KNN and XGB is 81% 
