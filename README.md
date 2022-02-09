@@ -36,3 +36,18 @@ From the above Comparisons metrics and models comparison tables we inferred the 
 •	Here 10 fold cross validation has been used. The highest mean accuracy is of KNN train and XGBoost train of about 85%.
 •	LDA train is performing the lowest of about 74% of mean accuracy.
 •	LDA train has got the highest inconsistency with 20% std deviation. LDA train, SVM train, bagging train, bagging test has got lowest std deviation of 3%.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+![image](https://user-images.githubusercontent.com/87828805/153253346-db33aad0-b95a-45bb-a8a2-044d950ad145.png)
+
+•	Bagging and XGBoost models tend towards defining high variance in train but fails to perform in test, creating over fit models.
+•	Gradient boosting models like XGBoost would performs extremely well in the large datasets than the smaller ones.
+•	Bootstraps requires high mathematics calculations and may pose low performances challenges.
+•	Parametric models like Logistic Regression and Naive Bayes showed better consistency in class predictions and in mathematical calculations also.
+•	LDA showed least consistency in 10 fold cross validation and KNN gave the least recall of minority class in train and test dataset.
+•	On cross validation Recall across both the target classes and consistent accuracy on both train and test dataset, Logistic Regression, SVM and MNB can be chosen for final model.
+
+As we know from the above , Naïve Bayes test accuracy is 83% and LR, LDA, KNN and XGB is 81% 
+And XGB is having the highest train accuracy 89% and least is shown by SVM 83%
+### So, overall MNB is chosen as the best optimized model for the dataset.
+As the difference between the Train and test accuracy is minimum as compared to other models.
