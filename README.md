@@ -34,7 +34,9 @@ From the above Comparisons metrics and models comparison tables we inferred the 
 ![image](https://user-images.githubusercontent.com/87828805/153252870-3605ffd3-92fe-4f2d-a67f-7d87b8a0d146.png)
 
 •	Here 10 fold cross validation has been used. The highest mean accuracy is of KNN train and XGBoost train of about 85%.
+
 •	LDA train is performing the lowest of about 74% of mean accuracy.
+
 •	LDA train has got the highest inconsistency with 20% std deviation. LDA train, SVM train, bagging train, bagging test has got lowest std deviation of 3%.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
